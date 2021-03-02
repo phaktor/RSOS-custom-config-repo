@@ -1,6 +1,11 @@
 # do not rename this or change path
 DEVICE_PACKAGE_OVERLAYS += vendor/custom/vendor/overlay/common
 
+# Vanadium
+PRODUCT_PACKAGES += \
+    TrichromeChrome \
+    TrichromeWebView
+
 # Seedvault
 PRODUCT_PACKAGES += \
     Seedvault
