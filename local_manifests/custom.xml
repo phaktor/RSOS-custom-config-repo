@@ -3,6 +3,7 @@
   <remote name="personal-remote" fetch="https://github.com/phaktor/" revision="11.0" />
   <remote name="seedvault-app" fetch="https://github.com/seedvault-app/" revision="master" />
   <remote name="aurorastore" fetch="https://github.com/lephyrus/" revision="master" />
+  <remote name="grapheneos" fetch="https://github.com/grapheneos/" revision="11" />
 
   <!-- this custom repo - do not change path -->
   <project path="vendor/custom" name="RSOS-custom-config-repo" remote="personal-remote" />
@@ -12,5 +13,11 @@
   
   <!-- Aurora Store from lephyrus repo-->
   <project path="prebuilts/aurorastore" name="ros-aurora-store" remote="aurorastore" clone-depth="1" />
+  
+  <!-- vanadium prebuilt -->
+  <project path="external/vanadium" name="platform_external_vanadium" remote="grapheneos" clone-depth="1" />
+  <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
 
 </manifest>
