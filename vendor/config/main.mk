@@ -1,6 +1,10 @@
 # do not rename this or change path
 DEVICE_PACKAGE_OVERLAYS += vendor/custom/vendor/overlay/common
 
+# Boot Animation
+PRODUCT_COPY_FILES += \
+    vendor/custom/prebuilt/bootanimation.zip:system/media/bootanimation.zip
+
 # Vanadium
 PRODUCT_PACKAGES += \
     TrichromeChrome \
