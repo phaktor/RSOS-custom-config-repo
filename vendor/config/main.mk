@@ -9,10 +9,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     TrichromeChrome \
     TrichromeWebView
-    
-# Active Edge
-PRODUCT_PACKAGES += \
-    ElmyraService
 
 # Seedvault
 PRODUCT_PACKAGES += \
