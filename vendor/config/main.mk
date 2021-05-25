@@ -13,6 +13,10 @@ PRODUCT_PACKAGES += \
 # Seedvault
 PRODUCT_PACKAGES += \
     Seedvault
+
+# Active Edge
+PRODUCT_PACKAGES += \
+    ElmyraService
     
 # AuroraStore
 PRODUCT_PACKAGES += \
